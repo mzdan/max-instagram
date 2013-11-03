@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1217.0, 109.0, 712.0, 672.0 ],
+		"rect" : [ 1195.0, 188.0, 712.0, 672.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,6 +30,19 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "jit.scope",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 469.0, 311.0, 80.0, 60.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-1",
 					"maxclass" : "message",
@@ -37,7 +50,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 263.5, 446.0, 43.0, 19.0 ],
-					"text" : "$1 60"
+					"text" : "$2 60"
 				}
 
 			}
@@ -220,8 +233,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 263.5, 410.0, 32.5, 19.0 ],
-					"text" : "63"
+					"patching_rect" : [ 263.5, 396.0, 100.5, 19.0 ],
+					"text" : "11:10 15"
 				}
 
 			}
