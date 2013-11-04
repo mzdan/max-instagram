@@ -1,6 +1,6 @@
 max-instagram
 =============
 
-Sonificatino of instagram data using Max/MSP.
+Sonification of Instagram data using Max/MSP.
 
 
